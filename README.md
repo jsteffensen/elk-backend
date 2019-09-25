@@ -44,10 +44,10 @@ POST casefiles/_update/2xx0LG0B8gaI_TxV63xc
 }
 ```
 
-To search documents run:
+To search casefiles run:
 
 ```
-GET /_search
+GET casefiles/_search
 {
     "query": {
         "match_all": {}
