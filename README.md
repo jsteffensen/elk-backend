@@ -1,2 +1,34 @@
 # elk-backend
-Setting up ElasticSearch and Kibana
+## Setting up ElasticSearch and Kibana
+
+Install ElasticSearch and Kibana according to https://www.elastic.co/downloads/elasticsearch
+
+Run ElasticSearch:
+
+cd into bin directory - and run `elasticsearch`
+
+`C:\elasticsearch\elasticsearch-7.3.1\bin>elasticsearch`
+
+cd into Kibana bin directory - and run `kibana`
+
+`C:\kibana\kibana-7.3.1-windows-x86_64\bin>kibana`
+
+In Kibana click the wrench button to go to Kibana console (http://localhost:5601/app/kibana#/dev_tools/console?_g=()).
+
+## Creating indexes and sample data
+
+To create the casefiles index via the Kibana console run:
+
+`PUT /casefiles`
+
+To insert a document into casefiles run:
+
+```
+POST casefiles/_doc/
+{
+    "user" : "KC6NS4",
+    "case_type" : "root",
+    "title" : "KC6NS4 root file",
+    "parent" : ""
+}
+```
