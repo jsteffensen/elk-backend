@@ -32,3 +32,25 @@ POST casefiles/_doc/
     "parent" : ""
 }
 ```
+
+To update a document run:
+
+```
+POST casefiles/_update/2xx0LG0B8gaI_TxV63xc
+{
+    "doc" : {
+        "title" : "KC6NS4 root"
+    }
+}
+```
+
+To searc documents run:
+
+```
+GET /_search
+{
+    "query": {
+        "match_all": {}
+    }
+}
+```
