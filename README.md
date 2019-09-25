@@ -44,7 +44,7 @@ POST casefiles/_update/2xx0LG0B8gaI_TxV63xc
 }
 ```
 
-To searc documents run:
+To search documents run:
 
 ```
 GET /_search
