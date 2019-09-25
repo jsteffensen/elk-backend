@@ -13,9 +13,9 @@ cd into Kibana bin directory - and run `kibana`
 
 `C:\kibana\kibana-7.3.1-windows-x86_64\bin>kibana`
 
-In Kibana click the wrench button to go to Kibana console (http://localhost:5601/app/kibana#/dev_tools/console?_g=()).
-
 ## Creating indexes and sample data
+
+In Kibana click the wrench button to go to Kibana console (http://localhost:5601/app/kibana#/dev_tools/console?_g=()).
 
 To create the casefiles index via the Kibana console run:
 
